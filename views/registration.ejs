@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form div input {
+            display: flex;
+
+            padding: 10px;
+            width: 300px;
+            border-radius: 10px;
+
+
+        }
+
+        form {
+
+            background-color: rgb(198, 242, 242);
+            width: 320px;
+            margin: 30px 0px 0px 600px;
+            padding: 60px;
+            border-radius: 10px;
+        }
+
+        form div {
+            font-size: 20px;
+        }
+
+        #d1 {
+            text-align: center;
+            font-size: 32px;
+            font-weight: 700px;
+            padding-bottom: 20px;
+            /* color: white; */
+        }
+
+        form .d2{
+            align-items: center;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="/register" method="POST">
+        <div id="d1">Registration Form</div>
+        <div>
+            name
+            <input type="text" placeholder="Enter the name" name="name">
+        </div>
+        <div>
+            Email
+            <input type="text" placeholder="Enter the email" name="email">
+            <div>
+                phone number
+                <input type="text" placeholder="Enter the phone number" name="number">
+            </div>
+            <div>
+                City
+                <input type="text" placeholder="Enter the city" name="city">
+            </div>
+            <div>
+                address
+                <input type="text" placeholder="Enter the address" name="address">
+            </div>
+            <div>
+                password
+                <input type="text" placeholder="Enter the password" name="password">
+            </div>
+            <div>
+                confirm password
+                <input type="text" placeholder="Enter the cpass" name="cpass">
+            </div>
+
+            <div class="d2">
+                <button >submit</button>
+            </div>
+    </form>
+</body>
+
+</html>
