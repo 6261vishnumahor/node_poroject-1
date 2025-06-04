@@ -1,4 +1,5 @@
 import Reg from"../models/reg.js"
+import Log from"../models/log.js"
 
 function home (req,res){
 res.render("home")
@@ -17,4 +18,13 @@ const register=async(req,res)=>{
     await Reg.create({name,email,number,city,address,password,cpass})
     res.redirect("/")
 }
-export {home,registration,register}
+function login(req,res){
+    res.render("login")
+}
+const loged=async(req,res)=>{
+let email=req.body.email
+let password=req.body.password
+await Log.create({email,password})
+res.redirect("/")
+}
+export {home,registration,register,login,loged}
