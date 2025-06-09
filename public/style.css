@@ -104,8 +104,8 @@
 
        .camera{
         background-color: rgb(217, 226, 223);
-        width: 200px;
-        height: 310px;
+        width: 230px;
+        height: 340px;
         text-align: center;
         padding: 50px 50px 70px 50px;
        } 
@@ -141,11 +141,41 @@
     
        .fashion{
         background-color: rgb(217, 226, 223);
-        width: 200px;
-        height: 310px;
-        text-align: center;
-        padding: 50px 50px 70px 50px;
+        width: 280px;
+        height: 343px;
+        /* text-align: center; */
+        padding: 50px 50px 70px 0px;
         margin-top: 10px;
+        text-align: right;
        } 
+       #c1{
+        font-size:24px ;
+        font-weight: bolder;
+       }
+       #c2{
+        font-size: 12px;
+       }
+       .fashion button{
+        background-color: black;
+        color: white;
+        padding: 10px;
+        font-size: 10px;
+       }
+       #c3 #c4{
+        width: 230px;
+        height: 310px;
+        
+       }
+       #c3{
+        display: flex;
+      
        
-     
+       }
+       #c3 #c5{
+        width: 50px;
+        height: 100px;
+       margin: 170px 100px 0px 0px;
+
+        
+       }
+   
